@@ -17,8 +17,8 @@ const HeroBranding = () => {
         {[...Array(10)].map((_, i) => (
           <div key={i} className="flex items-center mx-4">
             <img 
-              src="https://i.imgur.com/pCrHMwg.png" 
-              alt="Crumbl Cookies Logo" 
+              src="https://i.imgur.com/oNVplpt.png" 
+              alt="Louis Vuitton Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
           </div>
@@ -26,8 +26,8 @@ const HeroBranding = () => {
         {[...Array(10)].map((_, i) => (
           <div key={`dup-${i}`} className="flex items-center mx-4">
             <img 
-              src="https://i.imgur.com/pCrHMwg.png" 
-              alt="Crumbl Cookies Logo" 
+              src="https://i.imgur.com/oNVplpt.png" 
+              alt="Louis Vuitton Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
           </div>
@@ -44,8 +44,8 @@ const HeroBranding = () => {
             {/* Main Card Image */}
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
-                src="https://i.imgur.com/J0Fy8zu.png" 
-                alt="Crumbl $100 Gift Card" 
+                src="https://i.imgur.com/vSyBx18.png" 
+                alt="Louis Vuitton $1000 Gift Card" 
                 className="w-full h-auto"
               />
               
@@ -60,11 +60,11 @@ const HeroBranding = () => {
           {/* Main Headline */}
         <div className="flex flex-col items-center gap-0.5 px-2">
         <div className="relative">
-            <h1 className="text-[21px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
+            <h1 className="text-[19px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#000000]">Unlock</span>
-            <span className="text-[#000000]">Coach Rewards</span>
+            <span className="text-[#000000]">Louis Vuitton Rewards</span>
             <div className="flex items-center -ml-1">
-              <Gift className="w-6 h-6 text-[#000000] fill-transparent" />
+              <Gift className="w-5 h-5 text-[#000000] fill-transparent" />
             </div>
           </h1>
         </div>
@@ -73,7 +73,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#f1c40f] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#000000]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#000000] font-bold">$750 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#000000] font-bold">$1000 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#f1c40f] shrink-0 animate-sparkle" />
         </div>

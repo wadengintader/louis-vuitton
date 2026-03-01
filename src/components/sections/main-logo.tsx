@@ -9,9 +9,9 @@ const MainLogo = () => {
       onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars" } }, "*")}
     >
       <img 
-        src="https://i.imgur.com/pCrHMwg.png" 
-        alt="Aritzia Logo" 
-        className="h-10 sm:h-25 w-40 object-contain transition-all duration-700 hover:brightness-110"
+        src="https://i.imgur.com/oNVplpt.png" 
+        alt="Louis Vuitton Logo" 
+        className="h-10 sm:h-25 w-35 object-contain transition-all duration-700 hover:brightness-110"
       />
     </div>
   );
